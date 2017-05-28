@@ -8,9 +8,9 @@ This Haskell program was developed as a project for the course "CS 200 - Functio
 - All files should be in the same folder as *Main.hs*.
 - GHC
 	- Packages:
-		- threepenny-gui
-		- cassava
-		- PSQueue
+		- [threepenny-gui]
+		- [cassava]
+		- [PSQueue]
 
 ## How to get more data?
 
