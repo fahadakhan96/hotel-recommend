@@ -34,16 +34,16 @@ python gethotels.py "New York, United States of America"
 
 ## How to run the program?
 
-1. 
+1. Open cmd and execute the following commands:
 ```cmd
-	cabal update
-	cabal install threepenny-gui
-	cabal install cassava
-	cabal install PSQueue
-	git clone https://github.com/fahadakhan96/hotel-recommend
-	cd hotel-recommend/src
-	ghc --make Main
-	Main
+> cabal update
+> cabal install threepenny-gui
+> cabal install cassava
+> cabal install PSQueue
+> git clone https://github.com/fahadakhan96/hotel-recommend
+> cd hotel-recommend/src
+> ghc --make Main
+> Main
 ```
 2. Open a browser and goto ```localhost:8023```.
 
