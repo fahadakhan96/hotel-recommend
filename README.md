@@ -4,8 +4,8 @@ This Haskell program was developed as a project for the course "CS 200 - Functio
 
 ## Requirements
 
-- A "hotels.csv" file that contains the data.
-- All files should be in the same folder as "Main.hs".
+- A *hotels.csv* file that contains the data.
+- All files should be in the same folder as *Main.hs*.
 - GHC
 	- Packages:
 		- threepenny-gui
@@ -14,23 +14,25 @@ This Haskell program was developed as a project for the course "CS 200 - Functio
 
 ## How to get more data?
 
-- A "hotels.csv" file is required to get the program to run. The data in the file is in format "<country>;<city>;<hotel>;<priority>".
-- A "gethotels.py" file is included which will get data from Google Maps and append the data to "hotels.csv".
+- A *hotels.csv* file is required to get the program to run. The data in the file is in format ```<country>;<city>;<hotel>;<priority>```.
+- A *gethotels.py* file is included which will get data from Google Maps and append the data to *hotels.csv*.
 - In order to use this python file, you will need a Google Maps API key that you can get from [here](https://developers.google.com/maps/documentation/javascript/get-api-key). Once you have the key, simply add the key as a string in the *gethotels.py* file.
-'''python
+```python
 GOOGLE_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-'''
-- To use "gethotels.py", type in cmd: '''cmd
-python <path to gethotels.py> "<city>, <country>"'''.
+```
+- To use *gethotels.py*, type in cmd: 
+```cmd
+python <path to gethotels.py> "<city>, <country>"
+```.
 									
-									For example:'''cmd
-												python gethotels.py "New York, United States of America"'''
+	For example:```cmd
+				python gethotels.py "New York, United States of America"```
 
 - The program will automatically add the new countries and cities to the drop-down menus.
 
 ## How to run the program?
 
-1. '''cmd
+1. ```cmd
 	cabal update
 	cabal install threepenny-gui
 	cabal install cassava
@@ -39,8 +41,8 @@ python <path to gethotels.py> "<city>, <country>"'''.
 	cd hotel-recommend/src
 	ghc --make Main
 	Main
-   '''
-2. Open a browser and goto '''localhost:8023'''.
+   ```
+2. Open a browser and goto ```localhost:8023```.
 
 ## How to use the program?
 
