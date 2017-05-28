@@ -23,16 +23,19 @@ GOOGLE_API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 - To use *gethotels.py*, type in cmd: 
 ```cmd
 python <path to gethotels.py> "<city>, <country>"
-```.
+```
 									
-	For example:```cmd
-				python gethotels.py "New York, United States of America"```
+For example:
+```cmd
+python gethotels.py "New York, United States of America"
+```
 
 - The program will automatically add the new countries and cities to the drop-down menus.
 
 ## How to run the program?
 
-1. ```cmd
+1. 
+```cmd
 	cabal update
 	cabal install threepenny-gui
 	cabal install cassava
@@ -41,7 +44,7 @@ python <path to gethotels.py> "<city>, <country>"
 	cd hotel-recommend/src
 	ghc --make Main
 	Main
-   ```
+```
 2. Open a browser and goto ```localhost:8023```.
 
 ## How to use the program?
